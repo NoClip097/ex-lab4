@@ -22,8 +22,6 @@ def field(items, *args):
                     d_out[j] = i[j]  # Добавляем в словарь соответствующую пару
             yield d_out  # Отдаём
 
-    # Необходимо реализовать генератор 
-
 
 # Генератор списка случайных чисел
 # Пример:
@@ -32,4 +30,3 @@ def field(items, *args):
 def gen_random(begin, end, num_count):
     for i in range(num_count):
         yield random.randrange(begin, end+1, 1)
-    # Необходимо реализовать генератор
